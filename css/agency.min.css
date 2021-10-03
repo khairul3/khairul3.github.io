@@ -102,9 +102,8 @@ fieldset[disabled] .btn-primary:hover {
     background-color: #fff
 }
 .btn-xl {
-    color: #fff;
-    background-color: #CC0000;
-    border-color: #CC0000;
+    color:#780115;
+    background-color: #F6B537;
     border-radius: 3px;
     font-size: 18px;
     padding: 20px 40px
@@ -141,15 +140,15 @@ fieldset[disabled] .btn-xl:hover {
     background-color: #fff
 }
 .navbar-custom {
-    background-color: #222;
+    background-color: #780115;
     border-color: transparent
 }
 .navbar-custom .navbar-brand {
     /*color: #CC0000;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive*/
     width:210px;
-    height:57px;
-    background-image:url(../img/logo-smallest.png);
+    height:70px;
+    background-image:url(../img/image/logo.png);
     background-repeat:no-repeat; 
     margin:5px 0 0 5px; /*better position*/
 }
@@ -209,7 +208,7 @@ fieldset[disabled] .btn-xl:hover {
         /*font-size: 2em;*/
         width:240px;
         height:65px;
-        background-image:url(../img/logo-right.png);
+        background-image:url(../img/image/logo.png);
         background-repeat:no-repeat;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -228,7 +227,7 @@ fieldset[disabled] .btn-xl:hover {
     
 }
 header {
-    background-image: url(https://media.suara.com/pictures/970x544/2020/10/31/15505-ilustrasi-jamur-pixabaystevepb.jpg);
+    background-image: url(../img/image/home-banner-udang.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;

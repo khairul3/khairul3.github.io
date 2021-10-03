@@ -3832,6 +3832,18 @@ tbody.collapse.in {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
+.brand {
+    /*color: #CC0000;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive*/
+    width:210px;
+    height:57px;
+    background-image:url(../img/image/logo.png);
+    background-repeat:no-repeat; 
+    margin:5px 0 0 5px; /*better position*/
+}
+
+
 .btn .caret {
   margin-left: 0;
 }
