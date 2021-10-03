@@ -139,6 +139,18 @@ fieldset[disabled] .btn-xl:hover {
     color: #CC0000;
     background-color: #fff
 }
+
+.headlines {
+    color: #C32E27;
+  }
+
+.align-left{
+    text-align: left;
+
+}
+.align-right{
+    text-align: right;
+}
 .navbar-custom {
     background-color: #780115;
     border-color: transparent

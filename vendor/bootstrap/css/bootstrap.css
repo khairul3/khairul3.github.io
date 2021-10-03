@@ -4372,6 +4372,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   left: 0;
   z-index: 1030;
 }
+.headlines {
+  color: #C32E27;
+}
 @media (min-width: 768px) {
   .navbar-fixed-top,
   .navbar-fixed-bottom {
