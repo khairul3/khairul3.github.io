@@ -100,10 +100,11 @@ fieldset[disabled] .btn-primary.active {
   color: #cc0000;
   background-color: white;
 }
+
 .btn-xl {
   color: white;
-  background-color: #cc0000;
-  border-color: #cc0000;
+  background-color: #f6b537;
+  border-color: #ffffff;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -148,7 +149,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  background-color: #222222;
+  background-color: #780115;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -227,7 +228,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url(https://media.suara.com/pictures/970x544/2020/10/31/15505-ilustrasi-jamur-pixabaystevepb.jpg);
+  background-image: url("./img/image/home-banner-udang.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
