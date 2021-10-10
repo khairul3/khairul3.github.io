@@ -438,6 +438,11 @@ hr {
   margin-top: -6px;
 }
 
+.sintony {
+  font-family: "Sintony", sans-serif;
+  color: rgb(83, 83, 83);
+}
+
 .shrimplogo {
   height: 250px;
   display: block;
@@ -450,6 +455,23 @@ hr {
   display: block;
   margin-left: auto;
   margin-top: 10px;
+}
+.box-shadow {
+  padding-left: 15px;
+  padding-right: 12px;
+  padding-bottom: 30px;
+  box-shadow: 1px 1px 4px #888888;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.small-icon {
+  height: 50px;
+  margin-top: -10px;
+}
+
+.big-image {
+  height: 450px;
 }
 
 .skills .skills-content .right .line::before {
@@ -569,7 +591,7 @@ footer span a:hover {
   }
 }
 
-@keyframes animatetop {
+@keyframe animatetop {
   from {
     top: -300px;
     opacity: 0;
