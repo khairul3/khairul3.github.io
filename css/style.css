@@ -434,6 +434,24 @@ footer {
   position: relative;
 }
 
+hr {
+  margin-top: -6px;
+}
+
+.shrimplogo {
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shrimp {
+  height: 290px;
+  display: block;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
 .skills .skills-content .right .line::before {
   content: "";
   position: absolute;

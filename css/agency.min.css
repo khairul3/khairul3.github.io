@@ -10,8 +10,9 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    webkit-tap-highlight-color: #CC0000
+    font-family: 
+    
+    #CC0000
 }
  
 .btn-primary,
@@ -697,6 +698,7 @@ ul.social-buttons li a:hover {
 .portfolio-modal .modal-content img {
     margin-bottom: 30px
 }
+
 .portfolio-modal .close-modal {
     position: absolute;
     width: 75px;
