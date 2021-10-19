@@ -1,50 +1,127 @@
-# File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
+#-------------------------
+# Operating Specific Junk Files
+#-------------------------
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos
-
-### macOS ###
-# General
+# OS X
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# Icon must end with two \r
-Icon
-
-# Thumbnails
+# OS X Thumbnails
 ._*
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-.ionide
+# Windows shortcuts
+*.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos
+# Linux
+*~
 
-# Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+#-------------------------
+# Environment Files
+#-------------------------
+# These should never be under version control,
+# as it poses a security risk.
+.env
+.vagrant
+Vagrantfile
+
+#-------------------------
+# Temporary Files
+#-------------------------
+writable/cache/*
+!writable/cache/index.html
+
+writable/logs/*
+!writable/logs/index.html
+
+writable/session/*
+!writable/session/index.html
+
+writable/uploads/*
+!writable/uploads/index.html
+
+writable/debugbar/*
+
+php_errors.log
+
+#-------------------------
+# User Guide Temp Files
+#-------------------------
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+#-------------------------
+# Test Files
+#-------------------------
+tests/coverage*
+
+# Don't save phpunit under version control.
+phpunit
+
+#-------------------------
+# Composer
+#-------------------------
+vendor/
+
+#-------------------------
+# IDE / Development Files
+#-------------------------
+
+# Modules Testing
+_modules/*
+
+# phpenv local config
+.php-version
+
+# Jetbrains editors (PHPStorm, etc)
+.idea/
+*.iml
+
+# Netbeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+.phpintel
+/api/
+
+# Visual Studio Code
+.vscode/
+
+/results/
+/phpunit*.xml
+/.phpunit.*.cache
 
