@@ -45,9 +45,9 @@
     <!-- <link rel="icon" type="image/png" sizes="192x192" href="./img/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png"> -->
 
-    <link rel="manifest" href="./img/manifest.json">
+    <link rel="manifest" href="../img/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./img/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="../img/ms-icon-144x144.png">
 
     <script>
         (function(i, s, o, g, r, a, m) {
@@ -451,10 +451,10 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="./vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous">
