@@ -11,10 +11,10 @@
     <title>King of shrimp</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="./vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -25,7 +25,7 @@
 
 
     <!-- Theme CSS -->
-    <link href="./css/agency.min.css" rel="stylesheet">
+    <link href="../css/agency.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 
     <!-- fonts -->
@@ -461,11 +461,11 @@
     </script>
 
     <!-- Contact Form JavaScript -->
-    <script src="./js/jqBootstrapValidation.js"></script>
-    <script src="./js/contact_me.js"></script>
+    <script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="./js/agency.min.js"></script>
+    <script src="../js/agency.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
