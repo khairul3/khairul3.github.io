@@ -1,181 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
+<?= $this->extend('layout/template'); ?>
+<?= $this->section('content'); ?>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Cloud Advisory - AWS Architecture Design, Cloud Security, Automation, Cloud Native, Infrastructures Management">
-    <meta name="author" content="Victor GRENU">
-
-    <title>King of shrimp</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="./vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-    <!-- Theme CSS -->
-    <link href="./css/agency.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sintony&display=swap" rel="stylesheet">
-
-    <link rel="manifest" href="../img/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./img/ms-icon-144x144.png">
-
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-97732069-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-</head>
-
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Show navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#product">Product</a>
-                    </li>
-
-                    <li>
-                        <a class="page-scroll" href="#services">Service</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<!-- Header -->
+<header>
+    <div class="container" data-aos="fade-down" data-aos-offset="200" data-aos-delay="400" data-aos-duration="1000">
+        <div class="intro-text">
+            <div class="intro-heading">KING OF SHRIMP</div>
+            <div class="intro-lead-in">Produk Olahan Udang</div>
+            <a href="#product" class="page-scroll btn btn-xl">Lihat produk</a>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+    </div>
+</header>
 
-    <!-- Header -->
-    <header>
-        <div class="container" data-aos="fade-down" data-aos-offset="200" data-aos-delay="400" data-aos-duration="1000">
-            <div class="intro-text">
-                <div class="intro-heading">KING OF SHRIMP</div>
-                <div class="intro-lead-in">Produk Olahan Udang</div>
-                <a href="#product" class="page-scroll btn btn-xl">Lihat produk</a>
-            </div>
-        </div>
-    </header>
-
-    <!-- product -->
-    <section id="product">
-        <div class="container" style="margin-top: -100px;">
-            <div class="row">
-                <div class="col-12">
-                    <div class="heading" style="margin-bottom: 50px; text-align: center;" data-aos="fade-up" data-aos-offset="50" data-aos-delay="50" data-aos-duration="1000">
-                        <img src="img/image/logo-max.png" alt="logo Udang" class="shrimplogo">
-                    </div>
+<!-- product -->
+<section id="product">
+    <div class="container" style="margin-top: -100px;">
+        <div class="row">
+            <div class="col-12">
+                <div class="heading" style="margin-bottom: 50px; text-align: center;" data-aos="fade-up" data-aos-offset="50" data-aos-delay="50" data-aos-duration="1000">
+                    <img src="img/image/logo-max.png" alt="logo Udang" class="shrimplogo">
                 </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6"><img src="img/image/logo udang lengkap 1.jpeg" alt="sambal udang" class="shrimp"></div>
+            <div class="col-md-4 box-shadow">
+                <div>
+                    <h3 class="headlines">Sambal Udang <img src="img/image/shrimp.png" alt="" class="small-icon"></h3>
+                </div>
+                <hr>
+                <p class="sintony">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quo ullam iste rerum voluptas. Earum, doloremque. Nulla consectetur ab non soluta voluptatem nemo, quam pariatur doloribus nesciunt, consequuntur quidem, harum repudiandae nostrum corrupti eveniet porro recusandae cumque ullam itaque officiis minus sint earum.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row" style="margin-top: 170px;">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 box-shadow">
+            <div class="mb-40 text-center text-md-left align-right" data-aos="fade-left" data-aos-duration="1500">
+                <i class="d-inlin-block h2 mb-10 tf-ion-ios-alarm-outline"></i>
+                <h4 class="font-weight-bold mb-2 headlines">Smooth Touch</h4>
+                <p class="intro-heading">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Voluptatem, inventore? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?
+                </p>
             </div>
             <br>
-            <div class="row">
-                <div class="col-md-6"><img src="img/image/logo udang lengkap 1.jpeg" alt="sambal udang" class="shrimp"></div>
-                <div class="col-md-4 box-shadow">
-                    <div>
-                        <h3 class="headlines">Sambal Udang <img src="img/image/shrimp.png" alt="" class="small-icon"></h3>
-                    </div>
-                    <hr>
-                    <p class="sintony">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quo ullam iste rerum voluptas. Earum, doloremque. Nulla consectetur ab non soluta voluptatem nemo, quam pariatur doloribus nesciunt, consequuntur quidem, harum repudiandae nostrum corrupti eveniet porro recusandae cumque ullam itaque officiis minus sint earum.</p>
-                </div>
+            <div class="mb-40 text-center text-md-left align-right" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1500">
+                <i class="d-inlin-block h2 mb-10 tf-ion-ios-bell-outline"></i>
+                <h4 class="font-weight-bold mb-2 headlines">Elegant Design</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Voluptatem, inventore?
+                </p>
+            </div>
+            <br>
+        </div>
+        <div class="col-md-4 text-center align-self-center mb-4 mb-md-0" data-aos="zoom-in" data-aos-duration="1500">
+            <img class="big-image" src="img/image/sambalUdangWhite - Copy.jpg" alt="" />
+        </div>
+        <div class="col-md-2"></div>
+
+    </div>
+
+
+
+    </div>
+    <!-- .container close -->
+</section>
+
+<!-- Services Section -->
+<section id="services">
+    <div class="container" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Services</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque reprehenderit eius molestias laborum omnis repellendus quidem eum, consectetur aut, veritatis dolor, sed consequatur optio dolores? Quaerat cupiditate ea dolorum nemo.</h3>
             </div>
         </div>
-
-
-        <div class="row" style="margin-top: 170px;">
-            <div class="col-md-2"></div>
-            <div class="col-md-4 box-shadow">
-                <div class="mb-40 text-center text-md-left align-right" data-aos="fade-left" data-aos-duration="1500">
-                    <i class="d-inlin-block h2 mb-10 tf-ion-ios-alarm-outline"></i>
-                    <h4 class="font-weight-bold mb-2 headlines">Smooth Touch</h4>
-                    <p class="intro-heading">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Voluptatem, inventore? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?
-                    </p>
-                </div>
-                <br>
-                <div class="mb-40 text-center text-md-left align-right" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1500">
-                    <i class="d-inlin-block h2 mb-10 tf-ion-ios-bell-outline"></i>
-                    <h4 class="font-weight-bold mb-2 headlines">Elegant Design</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Voluptatem, inventore?
-                    </p>
-                </div>
-                <br>
-            </div>
-            <div class="col-md-4 text-center align-self-center mb-4 mb-md-0" data-aos="zoom-in" data-aos-duration="1500">
-                <img class="big-image" src="img/image/sambalUdangWhite - Copy.jpg" alt="" />
-            </div>
-            <div class="col-md-2"></div>
-
-        </div>
-
-
-
-        </div>
-        <!-- .container close -->
-    </section>
-
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque reprehenderit eius molestias laborum omnis repellendus quidem eum, consectetur aut, veritatis dolor, sed consequatur optio dolores? Quaerat cupiditate ea dolorum nemo.</h3>
-                </div>
-            </div>
-            <!-- <div class="row text-center">
+        <!-- <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -232,28 +138,28 @@
                     </p>
                 </div>
             </div> -->
-        </div>
-    </section>
+    </div>
+</section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">zoph.io is a Simplified Unipersonal Joint Stock Company,
-                        registered in the "Versailles, France" Trade and Companies Register under number 880003322
-                        R.C.S.</h3>
+<!-- About Section -->
+<section id="about">
+    <div class="container" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">About</h2>
+                <h3 class="section-subheading text-muted">zoph.io is a Simplified Unipersonal Joint Stock Company,
+                    registered in the "Versailles, France" Trade and Companies Register under number 880003322
+                    R.C.S.</h3>
 
-                    <!-- <h3 class="section-subheading text-muted"><a
+                <!-- <h3 class="section-subheading text-muted"><a
                             href="https://www.certmetrics.com/amazon/public/badge.aspx?i=4&t=c&d=2019-01-10&ci=AWS00230915"
                             target="_blank"><img src="img/AWS-Badges.png" /></a></h3> -->
-                </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <!-- <li class="timeline-inverted">
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline">
+                    <!-- <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/zophio.jpg" alt="zoph.io">
                             </div>
@@ -262,7 +168,7 @@
                                     <h4>2020</h4>
                                     <h4 class="subheading">Creation of zoph.io</h4>
                                 </div> -->
-                        <!-- <div class="timeline-body">
+                    <!-- <div class="timeline-body">
                                     <p class="text-muted">Supporting clients in the design of robust, scalable, and
                                         cost-effective cloud native architectures. We also work with customers for
                                         security reviews of AWS workloads, as well as for training sessions for Ops
@@ -354,15 +260,16 @@
                                         solutions, security policy, Pentest, Audits, Hardening of infrastructures.</p>
                                 </div>
                             </div> -->
-                        </li>
-                    </ul>
-                </div>
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Clients Aside -->
-    <!-- <aside class="clients">
+<!-- Clients Aside -->
+<!-- <aside class="clients">
+
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
@@ -389,77 +296,5 @@
         </div>
     </aside> -->
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contact <span>Us</span></h2>
-            <div class="contact-content">
-                <div class="card">
-                    <div class="box" id="address">
-                        <i class="fa fa-cloud"></i>
-                        <div class="title2">Address</div>
-                        <p>Indonesia / Kalimantan Selatan</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box" id="btn-modal-email">
-                        <i class="fa fa-envelope"></i>
-                        <div class="title2">Email</div>
-                        <p>kingof_shrimp@gmail.com</p>
-                        <p>(click for sending us a message)</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box" id="instagram">
-                        <i class="fa fa-instagram"></i>
-                        <div class="title2">Instagram</div>
-                        <p>@kingof_shrimp</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-
-    <footer>
-        <div class="container">
-            <div class="row center">
-                <ul class="list-inline social-buttons">
-                    <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                    <li><a href="" target="_blank"><i class="fa fa-github"></i></a>
-                    </li>
-                    <li><a href="" target="_blank"><i class="fa fa-medium"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="./vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous">
-    </script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="./js/jqBootstrapValidation.js"></script>
-    <script src="./js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="./js/agency.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-
-
-</body>
-
-</html>
+<?= $this->endSection(); ?>

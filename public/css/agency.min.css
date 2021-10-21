@@ -165,8 +165,9 @@ fieldset[disabled] .btn-xl:hover {
     height:70px;
     background-image:url(../img/image/logo.png);
     background-repeat:no-repeat; 
-    margin:5px 0 0 5px; /*better position*/
+    margin: 5px 0 0 5px; /*better position*/
 }
+
 .navbar-custom .navbar-brand.active,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand:focus,

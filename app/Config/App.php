@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/';
+    public $baseURL = 'http://localhost/web-profile-sambal-udang/public';
 
     /**
      * --------------------------------------------------------------------------
@@ -36,7 +36,8 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $indexPage = '';
+
+    public $indexPage = 'index.php';
 
     /**
      * --------------------------------------------------------------------------
@@ -55,6 +56,8 @@ class App extends BaseConfig
      *
      * @var string
      */
+
+
     public $uriProtocol = 'REQUEST_URI';
 
     /**
